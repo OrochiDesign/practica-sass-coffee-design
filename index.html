@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✓ 2da practica de sass</title>
+    <link rel="stylesheet" href="css/minificado.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="header fixed-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <a href="#" class="logo mr-auto"><i class="fas fa-mug-hot"></i>cafe design.</a>
+                <nav class="nav">
+                    <a href="#home">inicio</a>
+                    <a href="#about">sobre</a>
+                    <a href="#menu">menu</a>
+                    <a href="#gallery">galeria</a>
+                    <a href="#reviews">clientes</a>
+                    <a href="#contact">contacto</a>
+                    <a href="#blogs">blog's</a>
+                </nav>
+                <div class="icons">
+                    <div id="menu-btn" class="fas fa-bars"></div>
+                    <div id="login-btn" class="fas fa-user"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- login -->
+    <div class="login-form">
+        <form action="">
+            <div id="close-login-form" class="fas fa-times"></div>
+            <a href="#" class="logo mr-auto"><i class="fas fa-mug-hot"></i>cafe design.</a>
+            <h3>¡comencemos un nuevo gran dia!</h3>
+            <input type="email" name="" id="" class="box" placeholder="dejanos tu email....">
+            <input type="password" name="" id="" class="box" placeholder="contraseña....">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">recordar contraseña.</label>
+                <a href="#">¿Has olvidado tu contraseña?</a>
+            </div>
+            <input type="submit" value="registrate" class="link-btn">
+            <p class="account">no tienes una cuenta? <a href="#">!crea una¡</a></p>
+        </form>
+    </div>
+
+    <!-- login fin -->
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-left min-vh-100">
+                <div class="col-md-6">
+                    <span>cafe design.</span>
+                    <h3>¡¡¡comienza tu día con nuestro café!!!</h3>
+                    <a href="#" class="link-btn">comprar.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="img/about-img-1.png" class="w-100" alt="about">
+                </div>
+                <div class="col-md-6">
+                    <span>¿Por qué elegirnos?</span>
+                    <h3 class="title">la mejor cafeteria de la ciudad</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestias odio ea quaerat fuga consequuntur dignissimos itaque facere dicta reiciendis! Illum sequi quas accusamus quod sit recusandae qui, explicabo nulla.</p>
+                    <a href="#" class="link-btn">leer más</a>
+                    <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-coffee"></i>
+                            <h3>el mejor cafe.</h3>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-shipping-fast"></i>
+                            <h3>envio gratis.</h3>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-headset"></i>
+                            <h3>24/7 atencion al cliente.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h1 class="heading">¡nuestro menu!</h1>
+        <div class="container box-container">
+            <div class="box">
+                <img src="img/menu-1.png" alt="menu-1">
+                <h3>grano de café.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, nam.</p>
+                <a href="#" class="link-btn">leer más</a>
+            </div>
+            <div class="box">
+                <img src="img/menu-2.png" alt="menu-2">
+                <h3>grano de café.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, nam.</p>
+                <a href="#" class="link-btn">leer más</a>
+            </div>
+            <div class="box">
+                <img src="img/menu-3.png" alt="menu-3">
+                <h3>grano de café.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, nam.</p>
+                <a href="#" class="link-btn">leer más</a>
+            </div>
+            <div class="box">
+                <img src="img/menu-4.png" alt="menu-4">
+                <h3>grano de café.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, nam.</p>
+                <a href="#" class="link-btn">leer más</a>
+            </div>
+            <div class="box">
+                <img src="img/menu-5.png" alt="menu-5">
+                <h3>grano de café.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, nam.</p>
+                <a href="#" class="link-btn">leer más</a>
+            </div>
+            <div class="box">
+                <img src="img/menu-6.png" alt="menu-6">
+                <h3>grano de café.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, nam.</p>
+                <a href="#" class="link-btn">leer más</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">¡galeria design!</h1>
+        <div class="box-container container">
+            <div class="box">
+                <img src="img/g-img-1.jpg" alt="galeria1">
+                <div class="content">
+                    <h3>café por la mañana.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, rerum?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/g-img-2.jpg" alt="galeria2">
+                <div class="content">
+                    <h3>café por la mañana.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, rerum?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/g-img-3.jpg" alt="galeria3">
+                <div class="content">
+                    <h3>café por la mañana.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, rerum?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/g-img-4.jpg" alt="galeria4">
+                <div class="content">
+                    <h3>café por la mañana.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, rerum?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/g-img-5.jpg" alt="galeria5">
+                <div class="content">
+                    <h3>café por la mañana.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, rerum?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/g-img-6.jpg" alt="galeria6">
+                <div class="content">
+                    <h3>café por la mañana.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, rerum?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h1 class="heading">¡algunos clientes!</h1>
+        <div class="box-container container">
+            <div class="box">
+                <img src="img/pic1.jpg" alt="cliente1">
+                <h3>Alexandra Esteve</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed placeat at doloribus vel exercitationem ullam deserunt incidunt, impedit ut consequuntur!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pic2.jpg" alt="cliente2pic2.jpg">
+                <h3>Elena Carrillo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed placeat at doloribus vel exercitationem ullam deserunt incidunt, impedit ut consequuntur!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pic3.jpg" alt="cliente3">
+                <h3>Sofia Rivas</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed placeat at doloribus vel exercitationem ullam deserunt incidunt, impedit ut consequuntur!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">¡contactanos!</h1>
+        <div class="container">
+            <div class="contact-info-container">
+                <div class="box">
+                    <i class="fas fa-phone"></i>
+                    <h3>telefono:</h3>
+                    <p>+54 9 341 1234567</p>
+                    <p>+54 9 341 9876543</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>correo:</h3>
+                    <p>cafe-design@gmail.com</p>
+                    <p>cafe-design@hotmail.com</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-map"></i>
+                    <h3>dirección:</h3>
+                    <p>Rosario, Santa Fe Argentina.</p>
+                    <p>Avellaneda 4100</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-5 mb-md-0 ">
+                    <iframe class="map w100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.9950090050756!2d-60.691192785252916!3d-32.97753348078145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ac628cd60043%3A0x1213bea550f0ceba!2sBv.%20Avellaneda%204100%2C%20S2004%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1646860420715!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <form action="" class="col-md-6">
+                    <h3>estamos en contacto!!!</h3>
+                    <input type="text" placeholder="tu nombre..." class="box">
+                    <input type="email" placeholder="correo..." class="box">
+                    <input type="number" placeholder="tu numero..." class="box">
+                    <textarea name="" placeholder="dejanos tu mensaje..." id="" cols="30" rows="10" class="box"></textarea>
+                    <input type="submit" value="enviar" class="link-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading">¡nuestro blog's!</h1>
+        <div class="box-container container">
+            <div class="box">
+                <div class="image">
+                    <img src="img/g-img-1.jpg" alt="g-img-1">
+                </div>
+                <div class="content">
+                    <h3>blog's design.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quia?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+                <div class="icons">
+                    <span><i class="fas fa-calendar"></i>14/03 - 2022</span>
+                    <span><i class="fas fa-user"></i>orochi design.</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/g-img-2.jpg" alt="g-img-2">
+                </div>
+                <div class="content">
+                    <h3>blog's design.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quia?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+                <div class="icons">
+                    <span><i class="fas fa-calendar"></i>14/03 - 2022</span>
+                    <span><i class="fas fa-user"></i>orochi design.</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/g-img-3.jpg" alt="g-img-3">
+                </div>
+                <div class="content">
+                    <h3>blog's design.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quia?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+                <div class="icons">
+                    <span><i class="fas fa-calendar"></i>14/03 - 2022</span>
+                    <span><i class="fas fa-user"></i>orochi design.</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/g-img-4.jpg" alt="g-img-4">
+                </div>
+                <div class="content">
+                    <h3>blog's design.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quia?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+                <div class="icons">
+                    <span><i class="fas fa-calendar"></i>14/03 - 2022</span>
+                    <span><i class="fas fa-user"></i>orochi design.</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/g-img-5.jpg" alt="g-img-5">
+                </div>
+                <div class="content">
+                    <h3>blog's design.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quia?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+                <div class="icons">
+                    <span><i class="fas fa-calendar"></i>14/03 - 2022</span>
+                    <span><i class="fas fa-user"></i>orochi design.</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/g-img-6.jpg" alt="g-img-6">
+                </div>
+                <div class="content">
+                    <h3>blog's design.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quia?</p>
+                    <a href="#" class="link-btn">leer más</a>
+                </div>
+                <div class="icons">
+                    <span><i class="fas fa-calendar"></i>14/03 - 2022</span>
+                    <span><i class="fas fa-user"></i>orochi design.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h3>"información"</h3>
+            <p>suscríbete para las últimas actualizaciones</p>
+            <form action="">
+                <input type="email" placeholder="tu email..." name="" id="" class="email">
+                <input type="submit" value="enviar" class="link-btn">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <a href="#" class="logo"><i class="fas fa-mug-hot"></i>cafe design.</a>
+            <p class="credit">diseñado por <span> &copy; Orochi Design. </span> | todos los derechos reservados.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-github"></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
